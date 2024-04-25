@@ -1,0 +1,31 @@
+# README Text Search Engine
+
+## Description:
+This Python script creates a simple text search engine.
+It reads all text files in a specified directory, creates an in-memory index of the files and their contents, and provides an interactive search prompt.
+The user can input search queries, and the script will return the filenames with the highest matching scores based on the query.
+
+## Features:
+- Reads text files in a specified directory.
+- Builds an index of words and filenames.
+- Provides an interactive search prompt.
+- Displays filenames along with their corresponding match scores.
+- Supports quitting the search prompt with `:quit` command.
+
+## Usage:
+1. **Installation**: Ensure you have Python installed on your system. Python 3.6.9 was used when building this.
+2. **Clone Repository**: Clone or download this repository to your local machine.
+3. **Navigate to Directory**: Open a terminal and navigate to the directory where the script is located.
+4. **Run Script**: Execute the script by running the command `python <filename> <pathToDirectoryContainingTextFiles>`.
+   - Example: `python text_search.py /path/to/text/files`.
+5. **Search**: Enter your search query when prompted with `search>`.
+6. **Quit**: To exit the search prompt, type `:quit`.
+
+## Requirements:
+- Python 3.6.9
+
+## Author:
+- Bilal Jussab
+
+## Date:
+- 24 - 04 - 2024
